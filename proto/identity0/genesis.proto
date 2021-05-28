@@ -1,0 +1,12 @@
+syntax = "proto3";
+package _6footgeek.identity0.identity0;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/6footgeek/identity0/x/identity0/types";
+
+// GenesisState defines the identity0 module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+    // this line is used by starport scaffolding # ibc/genesis/proto
+}

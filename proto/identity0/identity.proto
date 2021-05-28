@@ -1,0 +1,21 @@
+syntax = "proto3";
+package sixfootgeek.identity;
+
+option go_package = "github.com/6footgeek/identity0/x/identity0/types";
+
+import "gogoproto/gogo.proto";
+
+message Identity {
+  string creator = 1;
+  string id = 2;
+  string name = 3; 
+  string dob = 4;
+  string publicKey = 5;
+}
+
+message MsgCreateIdentity {
+  string creator = 1;
+  string name = 2; 
+  string dob = 3; 
+  string publicKey = 4;
+}
